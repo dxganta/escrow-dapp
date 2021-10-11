@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F3F4F6;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+  .card-main {
+    @apply mt-6 mx-auto bg-white text-center shadow-md border border-gray-300 rounded-xl py-4 px-8 max-w-max;
+  }
+  .card-title {
+    @apply text-left
+  }
+  .card-subtitle{
+    @apply font-normal italic text-base text-opacity-80 text-black text-xs
+  }
+}
