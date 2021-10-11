@@ -47,7 +47,7 @@ contract Escrow is Ownable {
         bool sellerState;  // set this to true at struct initialisation
     }
 
-    uint32 public FEES = 5000; // 0.5%
+    uint32 public FEES = 10000; // 1%
     uint32 public constant MAX_PPM = 1000000; 
     mapping(uint => Transaction) public transactions;
 
