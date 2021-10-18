@@ -18,11 +18,12 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-// const infuraKey = "fj4jll3k.....";
-//
-// const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+require('dotenv').config();
+
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+const infuraKey = process.env.INFURA_KEY;
+
+const mnemonic = process.env.SECRET_PHRASE;
 
 module.exports = {
   /**
@@ -47,6 +48,31 @@ module.exports = {
       port: 8545, // Standard Ethereum port (default: none)
       network_id: '*', // Any network (default: none)
     },
+    goerli: {
+      provider: () => {
+        return new HDWalletProvider({
+          mnemonic: {
+            phrase: mnemonic,
+          },
+          providerOrUrl: 'https://goerli.infura.io/v3/' + infuraKey,
+        });
+      },
+      network_id: '5',
+      networkCheckTimeout: 20000000,
+    },
+    ropsten: {
+      provider: () => {
+        return new HDWalletProvider({
+          mnemonic: {
+            phrase: mnemonic,
+          },
+          providerOrUrl: 'https://ropsten.infura.io/v3/' + infuraKey,
+        });
+      },
+      network_id: '3',
+      networkCheckTimeout: 20000000,
+    },
+
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port

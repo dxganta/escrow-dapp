@@ -11,8 +11,10 @@ export default function Home() {
       </div>
       <div class='card-main'>
         <div class='text-gray-700 tracking-wide'>Transaction State</div>
-        <div class='text-5xl text-gray-500'>INACTIVE</div>
-        <div class='mt-2 card-title'>
+        <div class='text-5xl text-gray-500 card-main mt-2 shadow-md'>
+          INACTIVE
+        </div>
+        <div class='mt-4 card-title'>
           Buyer:{' '}
           <span class='card-subtitle'>
             0xaf73867B57900b148Cfdc947bB1af9498cfb5488
