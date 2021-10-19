@@ -15,8 +15,10 @@ Whereas, in the case of a dispute they won't be able to withdraw their initial l
 he will lose $500 ( $500 because the only scenario where A (buyer) cheats will be when he denies receipt of product even after receiving product). Thus, it is both 
 in their best interests to come to an agreement be it yes-yes or no-no.
 
-## Demo Video:
-<iframe width="1904" height="815" src="https://www.youtube.com/embed/qti52FCZv7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## [Demo Video:](https://youtu.be/SgkRjRihi9M)
+[<img src="https://i9.ytimg.com/vi/SgkRjRihi9M/mq2.jpg?sqp=CKjxuYsG&rs=AOn4CLC5RAKlaGdeSvUbJrZirq9g3s2UrQ">](https://youtu.be/SgkRjRihi9M)
+
+
 ## Deployed Addresses
 1. Ropsten Testnet : [0xd89154ca52d04d4A211BfA671Bb45437fc180d52](https://ropsten.etherscan.io/address/0xd89154ca52d04d4A211BfA671Bb45437fc180d52#writeContract)
 2. Goerli Testnet: [0xB8EBd0A6b7c1F5873DD84A1E37a0b331dd8786cD](https://goerli.etherscan.io/address/0xB8EBd0A6b7c1F5873DD84A1E37a0b331dd8786cD#writeContract)
