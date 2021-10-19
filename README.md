@@ -1,3 +1,5 @@
+# Medius: Onchain Escrow using Game Theory
+
 ## Demo:
 Suppose "A" wants to hire "B" for building a simple website for $500.
 To initiate the transaction, the buyer (A) needs to lock double the transaction amount ($1000) and the seller (B) needs to lock an amount equal the transaction amount($500) in the smart contract.
@@ -14,7 +16,7 @@ he will lose $500 ( $500 because the only scenario where A (buyer) cheats will b
 in their best interests to come to an agreement be it yes-yes or no-no.
 
 ## Demo Video:
-
+<iframe src="https://www.youtube.com/watch?v=SgkRjRihi9M"></iframe>
 
 ## Deployed Addresses
 1. Ropsten Testnet : [0xd89154ca52d04d4A211BfA671Bb45437fc180d52](https://ropsten.etherscan.io/address/0xd89154ca52d04d4A211BfA671Bb45437fc180d52#writeContract)
