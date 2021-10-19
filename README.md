@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/47485188/137869504-247ec107-7124-46d3-a558-8f6e6352bc03.jpg" height="140" width="140"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/47485188/137869504-247ec107-7124-46d3-a558-8f6e6352bc03.jpg" height="140" width="180"></p>
 
 # Medius: Onchain Escrow using Game Theory
 
