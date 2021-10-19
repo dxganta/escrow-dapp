@@ -16,8 +16,7 @@ he will lose $500 ( $500 because the only scenario where A (buyer) cheats will b
 in their best interests to come to an agreement be it yes-yes or no-no.
 
 ## Demo Video:
-<iframe src="https://www.youtube.com/watch?v=SgkRjRihi9M"></iframe>
-
+<iframe width="1904" height="815" src="https://www.youtube.com/embed/qti52FCZv7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Deployed Addresses
 1. Ropsten Testnet : [0xd89154ca52d04d4A211BfA671Bb45437fc180d52](https://ropsten.etherscan.io/address/0xd89154ca52d04d4A211BfA671Bb45437fc180d52#writeContract)
 2. Goerli Testnet: [0xB8EBd0A6b7c1F5873DD84A1E37a0b331dd8786cD](https://goerli.etherscan.io/address/0xB8EBd0A6b7c1F5873DD84A1E37a0b331dd8786cD#writeContract)
